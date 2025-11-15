@@ -8,13 +8,13 @@
 
 ---
 
-## 🧠 Overview  
+##  Overview  
 The **Reddit Trend Predictor** is a machine learning project that predicts whether a Reddit post will trend based on its **title**, **description**, **sentiment**, and **time-based features**.  
 It leverages the **Meta Reddit Corpus Dataset** from Kaggle and includes an interactive **Streamlit web app** for real-time predictions.
 
 ---
 
-## 🚀 Features  
+##  Features  
 ✅ Uses real Reddit posts and comments dataset  
 💬 Sentiment analysis using **TextBlob**  
 🧮 Text vectorization with **TF-IDF**  
@@ -24,7 +24,7 @@ It leverages the **Meta Reddit Corpus Dataset** from Kaggle and includes an inte
 
 ---
 
-## 📊 Dataset  
+##  Dataset  
 **Source:** [The Meta Corpus of Reddit Dataset (Kaggle)](https://www.kaggle.com/datasets/thedevastator/the-meta-corpus-of-datasets-the-reddit-dataset)  
 
 **Files Used:**  
@@ -36,7 +36,7 @@ It leverages the **Meta Reddit Corpus Dataset** from Kaggle and includes an inte
 
 ---
 
-## 🧩 Project Structure  
+##  Project Structure  
 
 ```bash
 RedditTrendPredictor/
