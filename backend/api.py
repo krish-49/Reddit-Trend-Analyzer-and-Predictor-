@@ -18,6 +18,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
 # ---------------- Load model ----------------
 MODEL_DIR = "../models"
 

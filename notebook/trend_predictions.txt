@@ -1,11 +1,11 @@
+Title: Gamers Are Extremely Mad About AI: In-game slop was bad enough. Now AI is driving up prices, too.
+Trend Probability: 64.5%
+------------------------------------------------------------
 Title: Chrome, Edge privacy extensions quietly snarf AI chats
 Trend Probability: 61.0%
 ------------------------------------------------------------
 Title: Racks of AI chips are too damn heavy | Old data centers physically cannot support rows and rows of GPUs, which is one reason for the massive AI data center buildout.
 Trend Probability: 60.5%
-------------------------------------------------------------
-Title: "I was forced to use AI until the day I was laid off." Copywriters reveal how AI has decimated their industry
-Trend Probability: 59.5%
 ------------------------------------------------------------
 Title: Taylor Swift and Sabrina Carpenter AI impersonators scammed fans out of $5.3 billion in 2025
 Trend Probability: 59.0%
@@ -16,8 +16,8 @@ Trend Probability: 59.0%
 Title: This is Europe’s secret weapon against Trump: it could burst his AI bubble
 Trend Probability: 57.99999999999999%
 ------------------------------------------------------------
-Title: A Florida school went into lockdown after AI flagged a clarinet as a gun
-Trend Probability: 57.49999999999999%
+Title: Samsung unveils SOCAMM2 memory, teams up with Nvidia for AI accelerators
+Trend Probability: 57.99999999999999%
 ------------------------------------------------------------
 Title: Nadella's message to Microsoft execs: Get on board with the AI grind or get out
 Trend Probability: 57.49999999999999%
