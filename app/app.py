@@ -45,7 +45,7 @@ day_map = {"Monday": 0, "Tuesday": 1, "Wednesday": 2, "Thursday": 3, "Friday": 4
 #         }
 #     ])
 #     return features
-
+# anew commanded function with scaling and vectorization
 def extract_features(title, selftext, hour, dayofweek):
     sentiment = TextBlob(title + " " + selftext).sentiment.polarity
     text = (title + " " + selftext).lower()
