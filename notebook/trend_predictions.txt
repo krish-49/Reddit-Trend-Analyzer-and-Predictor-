@@ -1,30 +1,30 @@
-Title: Gamers Are Extremely Mad About AI: In-game slop was bad enough. Now AI is driving up prices, too.
+Title: Cloudflare is laying off 1,100 employees to prepare for 'the agentic AI era'
+Trend Probability: 68.5%
+------------------------------------------------------------
+Title: Sony, Nintendo grapple with memory price surge as AI boom constrains supply
 Trend Probability: 64.5%
 ------------------------------------------------------------
-Title: Chrome, Edge privacy extensions quietly snarf AI chats
-Trend Probability: 61.0%
+Title: U.S. govt releases highly anticipated files documenting UFOs, 'extraterrestrial life'
+Trend Probability: 63.5%
 ------------------------------------------------------------
-Title: Racks of AI chips are too damn heavy | Old data centers physically cannot support rows and rows of GPUs, which is one reason for the massive AI data center buildout.
-Trend Probability: 60.5%
+Title: Android 17 QPR1 Beta 2 Releases for Pixel Phones
+Trend Probability: 63.0%
 ------------------------------------------------------------
-Title: Taylor Swift and Sabrina Carpenter AI impersonators scammed fans out of $5.3 billion in 2025
-Trend Probability: 59.0%
+Title: Valve releases Steam Controller CAD files under Creative Commons license
+Trend Probability: 61.5%
 ------------------------------------------------------------
-Title: McKinsey to make thousands of layoffs as AI advances
-Trend Probability: 59.0%
+Title: Nvidia has already committed $40B to equity AI deals this year
+Trend Probability: 58.5%
 ------------------------------------------------------------
-Title: This is Europe’s secret weapon against Trump: it could burst his AI bubble
-Trend Probability: 57.99999999999999%
-------------------------------------------------------------
-Title: Samsung unveils SOCAMM2 memory, teams up with Nvidia for AI accelerators
-Trend Probability: 57.99999999999999%
-------------------------------------------------------------
-Title: Nadella's message to Microsoft execs: Get on board with the AI grind or get out
+Title: Fervent And Fake: High-glam AI Avatars Boost Trump Ahead Of Midterms
 Trend Probability: 57.49999999999999%
 ------------------------------------------------------------
-Title: Trump's rush to build nuclear reactors across the U.S. raises safety worries
-Trend Probability: 56.49999999999999%
+Title: Cloudflare lays off 1,100 people
+Trend Probability: 56.00000000000001%
 ------------------------------------------------------------
-Title: Trump's rush to build nuclear reactors across the U.S. raises safety worries
-Trend Probability: 56.49999999999999%
+Title: While refrigerators and air conditioners still rely on gases that can leak, a Cambridge startup raises $10 million to create refrigeration with plastic crystals that cool when squeezed.
+Trend Probability: 54.41666666666667%
+------------------------------------------------------------
+Title: Nvidia invests $300 million in Corning to build three new US-based optical fiber plants — AI infrastructure deal would boost fiber production capacity by over 50%
+Trend Probability: 52.916666666666664%
 ------------------------------------------------------------
