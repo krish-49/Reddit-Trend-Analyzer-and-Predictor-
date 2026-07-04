@@ -8,12 +8,14 @@ export default function App() {
   const [day, setDay] = useState("Monday");
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
 
   const predict = async () => {
     if (!title.trim()) return;
 
     setLoading(true);
     setResult(null);
+    setError(null);
 
     try {
       const res = await fetch("http://127.0.0.1:8000/predict", {
@@ -31,7 +33,7 @@ export default function App() {
       setResult(data);
     } catch (err) {
       console.error("Prediction error:", err);
-      alert("Backend not running or network error");
+      setError("⚠️ Could not connect to backend. Make sure the server is running on port 8000.");
     }
 
     setLoading(false);
@@ -119,6 +121,10 @@ export default function App() {
                   Status: {result.label}
                 </p>
               </div>
+            </div>
+          ) : error ? (
+            <div className="text-red-500 text-base font-medium text-center p-4 bg-red-50 rounded-xl border border-red-200">
+              {error}
             </div>
           ) : (
             <div className="text-gray-400 text-lg font-medium">

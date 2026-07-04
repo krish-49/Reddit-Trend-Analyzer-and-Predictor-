@@ -1,10 +1,30 @@
-streamlit
+# Core ML & Data
 pandas
 numpy
-textblob
 scikit-learn
-matplotlib
-seaborn
+scipy
 joblib
 
+# NLP
+textblob
 
+# Visualization
+matplotlib
+seaborn
+
+# Reddit API
+praw
+
+# Backend API
+fastapi
+uvicorn
+
+# Notebook execution
+nbformat
+nbconvert
+
+# Environment variables
+python-dotenv
+
+# Frontend (Streamlit app)
+streamlit
