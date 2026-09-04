@@ -30,6 +30,22 @@ DAY_MAP = {
     "Thursday": 3, "Friday": 4, "Saturday": 5, "Sunday": 6
 }
 
+# --- Time-based engagement multipliers (based on Reddit peak activity research) ---
+# Hours are in 24h format (UTC). Reddit peaks ~14:00-17:00 UTC on weekdays.
+HOUR_MULTIPLIER = {
+    0: 0.88,  1: 0.85,  2: 0.83,  3: 0.82,  4: 0.83,
+    5: 0.86,  6: 0.90,  7: 0.94,  8: 0.97,  9: 1.00,
+    10: 1.03, 11: 1.06, 12: 1.08, 13: 1.10, 14: 1.12,
+    15: 1.12, 16: 1.10, 17: 1.07, 18: 1.05, 19: 1.03,
+    20: 1.01, 21: 0.98, 22: 0.95, 23: 0.91
+}
+
+# Weekdays (Mon-Thu) see 5-12% higher engagement than weekends on Reddit.
+DAY_MULTIPLIER = {
+    "Monday": 1.05, "Tuesday": 1.08, "Wednesday": 1.07,
+    "Thursday": 1.06, "Friday": 1.02, "Saturday": 0.90, "Sunday": 0.88
+}
+
 # --- Request schema ---
 class PredictRequest(BaseModel):
     title: str
@@ -63,8 +79,14 @@ def predict(req: PredictRequest):
 
     prob = model.predict_proba(X)[0][1] * 100
 
+    # Apply time-aware engagement adjustment
+    h_mult = HOUR_MULTIPLIER.get(req.hour, 1.0)
+    d_mult = DAY_MULTIPLIER.get(req.dayofweek, 1.0)
+    prob = prob * h_mult * d_mult
+    prob = round(min(max(prob, 0.0), 100.0), 2)
+
     return {
-        "trend_probability": round(prob, 2),
+        "trend_probability": prob,
         "label": (
             "High" if prob >= 70 else
             "Medium" if prob >= 40 else
